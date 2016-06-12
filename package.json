@@ -39,7 +39,15 @@
     "loader.js": "^4.0.1"
   },
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "powerbi",
+    "user",
+    "experience",
+    "ux",
+    "styles",
+    "icons",
+    "components",
+    "fonts"
   ],
   "dependencies": {
     "ember-cli-babel": "^5.1.6"
