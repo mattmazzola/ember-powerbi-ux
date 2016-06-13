@@ -1,0 +1,134 @@
+﻿/*
+ *  Power BI Visualizations
+ *
+ *  Copyright (c) Microsoft Corporation
+ *  All rights reserved.
+ *  MIT License
+ *
+ *  Permission is hereby granted, free of charge, to any person obtaining a copy
+ *  of this software and associated documentation files (the ""Software""), to deal
+ *  in the Software without restriction, including without limitation the rights
+ *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *  copies of the Software, and to permit persons to whom the Software is
+ *  furnished to do so, subject to the following conditions:
+ *
+ *  The above copyright notice and this permission notice shall be included in
+ *  all copies or substantial portions of the Software.
+ *
+ *  THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ *  THE SOFTWARE.
+ */
+
+body{
+    -webkit-font-smoothing: antialiased;
+}
+
+.secondaryFont{
+    font-family: @regularSecondaryFontFamily;
+}
+
+.secondaryBoldFont{
+    font-family: @boldSecondaryFontFamily;
+}
+
+.lightFont{
+    font-family: @lightFontFamily;
+}
+
+.semilightFont{
+    font-family: @semilightFontFamily;
+}
+
+.regularFont{
+    font-family: @regularFontFamily;
+}
+
+.semiboldFont{
+    font-family: @semiboldFontFamily;
+}
+
+.boldFontFamily{
+    font-family: @boldFontFamily;
+}
+
+.smallFontSize{
+    font-size: @smallFontSize;
+}
+
+.mediumFontSize{
+    font-size: @mediumFontSize;
+}
+
+.largeFontSize{
+    font-size: @largeFontSize;
+}
+
+
+@font-face {
+    font-family: 'wf_segoe-ui_light';
+    src: ~"url('../ember-powerbi-ux/fonts/SegoeUI-Light-final.eot')";
+    src: ~"local('Segoe UI Light'),local('Segoe WP Light'), url('../ember-powerbi-ux/fonts/SegoeUI-Light-final.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/SegoeUI-Light-final.woff') format('woff'),url('../ember-powerbi-ux/fonts/SegoeUI-Light-final.ttf') format('truetype'),url('../ember-powerbi-ux/fonts/SegoeUI-Light-final.svg#web') format('svg')";
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'wf_segoe-ui_semilight';
+    src: ~"url('../ember-powerbi-ux/fonts/SegoeUI-SemiLight-final.eot')";
+    src: ~"local('Segoe UI Semilight'),local('Segoe WP Light'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiLight-final.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiLight-final.woff') format('woff'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiLight-final.ttf') format('truetype'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiLight-final.svg#web') format('svg')";
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'wf_segoe-ui_normal';
+    src: ~"url('../ember-powerbi-ux/fonts/SegoeUI-Regular-final.eot')";
+    src: ~"local('Segoe UI'),local('Segoe'),local('Segoe WP'),url('../ember-powerbi-ux/fonts/SegoeUI-Regular-final.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/SegoeUI-Regular-final.woff') format('woff'),url('../ember-powerbi-ux/fonts/SegoeUI-Regular-final.ttf') format('truetype'),url('../ember-powerbi-ux/fonts/SegoeUI-Regular-final.svg#web') format('svg')";
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'wf_segoe-ui_semibold';
+    src: ~"url('../ember-powerbi-ux/fonts/SegoeUI-SemiBold-final.eot')";
+    src: ~"local('Segoe UI Semibold'),local('Segoe Semibold'),local('Segoe WP Semibold'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiBold-final.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiBold-final.woff') format('woff'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiBold-final.ttf') format('truetype'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiBold-final.svg#web') format('svg')";
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'wf_segoe-ui_bold';
+    src: ~"url('../ember-powerbi-ux/fonts/SegoeUI-Bold-final.eot')";
+    src: ~"local('Segoe UI bold'),local('Segoe bold'),local('Segoe WP bold'),url('../ember-powerbi-ux/fonts/SegoeUI-Bold-final.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/SegoeUI-Bold-final.woff') format('woff'),url('../ember-powerbi-ux/fonts/SegoeUI-Bold-final.ttf') format('truetype'),url('../ember-powerbi-ux/fonts/SegoeUI-Bold-final.svg#web') format('svg')";
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'wf_standard-font';
+    src: ~"url('../ember-powerbi-ux/fonts/StandardFont.eot')";
+    src: ~"url('../ember-powerbi-ux/fonts/StandardFont.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/StandardFont.woff') format('woff'),url('../ember-powerbi-ux/fonts/StandardFont.ttf') format('truetype')";
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'wf_standard-font_bold';
+    src: ~"url('../ember-powerbi-ux/fonts/StandardFontBold.eot')";
+    src: ~"url('../ember-powerbi-ux/fonts/StandardFontBold.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/StandardFontBold.woff') format('woff'),url('../ember-powerbi-ux/fonts/StandardFontBold.ttf') format('truetype')";
+    font-weight: normal;
+    font-style: normal
+}
+
+@font-face {
+    font-family: 'wf_standard-font_light';
+    src: ~"url('../ember-powerbi-ux/fonts/StandardFontLight.eot')";
+    src: ~"url('../ember-powerbi-ux/fonts/StandardFontLight.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/StandardFontLight.woff') format('woff'),url('../ember-powerbi-ux/fonts/StandardFontLight.ttf') format('truetype')";
+    font-weight: normal;
+    font-style: normal
+}

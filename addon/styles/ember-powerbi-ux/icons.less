@@ -1,0 +1,356 @@
+﻿//-----------------------------------------------------------------------
+// <copyright company="Microsoft Corporation">
+//        Copyright (c) Microsoft Corporation.  All rights reserved.
+// </copyright>
+//-----------------------------------------------------------------------
+
+@glyphIconFamily: 'PowrMDL2';
+
+@font-face {
+    font-family: @glyphIconFamily;
+    src: ~"url('../fonts/PowrMDL2.eot')";
+    src: ~"url('../fonts/PowrMDL2.eot?#iefix') format('embedded-opentype'),url('../fonts/PowrMDL2.woff') format('woff'),url('../fonts/PowrMDL2.ttf') format('truetype'),url('../fonts/PowrMDL2.svg') format('svg')";
+    font-weight: normal;
+    font-style: normal;
+}
+
+//override bootstrap icons
+.glyphicon {
+  font-family: @glyphIconFamily;
+  font-style: normal;
+  font-size: 32px;
+  display: inline-block;
+}
+
+.glyph-micro{   font-size: 8px;     }
+.glyph-mini{    font-size: 12px;    }
+.glyph-small{   font-size: 16px;    }
+.glyph-medium{  font-size: 32px;    }
+.glyph-med{     font-size: 32px;    } /* deprecated - use medium */
+.glyph-large{   font-size: 48px;    }
+
+
+//Glyph Icon Mixins - icons below are used as mixins, so they need to have CSS declared with nested psuedoclasses instead of just styling the :before psuedo class directly
+.pbi-glyph-chevrondownmedium{       &::before{ content: "\E972"; }}
+.pbi-glyph-chevronupmedium{         &::before{ content: "\E971"; }}
+.pbi-glyph-caretdownright{          &::before{ content: "\E818"; }}
+//end mixins
+
+.pbi-glyph-share:before{                    content: "\E72D"; }
+.pbi-glyph-save:before{                     content: "\E74E"; }
+.pbi-glyph-saveas:before{                   content: "\E792"; }
+.pbi-glyph-financial:before{                content: "\E7BB"; }
+.pbi-glyph-edit:before{                     content: "\E70F"; }
+.pbi-glyph-emi:before{                      content: "\E731"; }
+.pbi-glyph-checkboxcomposite:before{        content: "\E73A"; }
+.pbi-glyph-checkmark:before{                content: "\E73E"; }
+.pbi-glyph-page2:before{                    content: "\E7C3"; }
+.pbi-glyph-folder:before{                   content: "\E8B7"; }
+.pbi-glyph-link:before{                     content: "\E71B"; }
+.pbi-glyph-group:before{                    content: "\E902"; }
+.pbi-glyph-paste:before{                    content: "\E77F"; }
+.pbi-glyph-emoji:before{                    content: "\E76E"; }
+.pbi-glyph-upload:before{                   content: "\E898"; }
+.pbi-glyph-pc1:before{                      content: "\E977"; }
+.pbi-glyph-add:before{                      content: "\E710"; }
+.pbi-glyph-search:before{                   content: "\E721"; }
+.pbi-glyph-globalnavbutton:before{          content: "\E700"; }
+.pbi-glyph-pageright:before{                content: "\E761"; }
+.pbi-glyph-pageleft:before{                 content: "\E760"; }
+.pbi-glyph-tvmonitor:before{                content: "\E7F4"; }
+.pbi-glyph-chromerestore:before{            content: "\E923"; }
+.pbi-glyph-world:before{                    content: "\E128"; }
+.pbi-glyph-more:before{                     content: "\E712"; }
+.pbi-glyph-slideshow:before{                content: "\E786"; }
+.pbi-glyph-photo:before{                    content: "\E91B"; }
+.pbi-glyph-calendar:before{                 content: "\E787"; }
+.pbi-glyph-favoritestar:before{             content: "\E734"; }
+.pbi-glyph-collection:before{               content: "\E7AA"; }
+.pbi-glyph-chromefullscreen:before{         content: "\E92D"; }
+.pbi-glyph-undo:before{                     content: "\E7A7"; }
+.pbi-glyph-back:before{                     content: "\E72B"; }
+.pbi-glyph-font:before{                     content: "\E8D2"; }
+.pbi-glyph-flickup:before{                  content: "\E936"; }
+.pbi-glyph-chromeminimize:before{           content: "\E921"; }
+.pbi-glyph-gripperbarhorizontal:before{     content: "\E76F"; }
+.pbi-glyph-barchart:before{                 content: "\EAE7"; }
+.pbi-glyph-gauge:before{                    content: "\EB24"; }
+.pbi-glyph-warning:before{                  content: "\E7BA"; }
+.pbi-glyph-error:before{                    content: "\EA39"; }
+.pbi-glyph-success:before{                  content: "\E73E"; }
+.pbi-glyph-settings:before{                 content: "\E713"; }
+.pbi-glyph-globe:before{                    content: "\E774"; }
+.pbi-glyph-repair:before{                   content: "\E90F"; }
+.pbi-glyph-info:before{                     content: "\E946"; }
+.pbi-glyph-go:before{                       content: "\E8AD"; }
+.pbi-glyph-blockedsite:before{              content: "\E72F"; }
+.pbi-glyph-close:before{                    content: "\E8BB"; }
+.pbi-glyph-qna:before{                      content: "\E8BD"; }
+.pbi-glyph-circlefill:before{               content: "\EA3B"; }
+.pbi-glyph-circlering:before{               content: "\EA3A"; }
+.pbi-glyph-pinned:before{                   content: "\E840"; }
+.pbi-glyph-pinnedfill:before{               content: "\E842"; }
+.pbi-glyph-unpin:before{                    content: "\E77A"; }
+.pbi-glyph-excel:before{                    content: "\EC28"; }
+.pbi-glyph-flag:before{                     content: "\E7C1"; }
+.pbi-glyph-library:before{                  content: "\E8F1"; }
+.pbi-glyph-mail:before{                     content: "\E715"; }
+.pbi-glyph-lock:before{                     content: "\E72E"; }
+.pbi-glyph-piedouble:before{                content: "\EB04"; }
+.pbi-glyph-rewind:before{                   content: "\EB9E"; }
+.pbi-glyph-asterisk:before{                 content: "\EA38"; }
+.pbi-glyph-comment:before{                  content: "\E90A"; }
+.pbi-glyph-checkbox:before{                 content: "\E739"; }
+.pbi-glyph-checkboxfill:before{             content: "\E73B"; }
+.pbi-glyph-checkboxindeterminate:before{    content: "\E73C"; }
+.pbi-glyph-checkboxreversed:before{         content: "\E73D"; }
+.pbi-glyph-inserttextbox:before{            content: "\EC7D"; }
+.pbi-glyph-toggle:before{                   content: "\EC12"; }
+.pbi-glyph-togglefilled:before{             content: "\EC11"; }
+.pbi-glyph-delete:before{                   content: "\E74D"; }
+.pbi-glyph-refresh:before{                  content: "\E72C"; }
+.pbi-glyph-miniexpand:before{               content: "\E93A"; }
+.pbi-glyph-minicontract:before{             content: "\E93B"; }
+.pbi-glyph-waffle:before{                   content: "\E001"; }
+.pbi-glyph-filter:before{                   content: "\E100"; }
+.pbi-glyph-filterfilled:before{             content: "\E101"; }
+.pbi-glyph-visualsinteraction:before{       content: "\E102"; }
+.pbi-glyph-crosshighlight:before{           content: "\E103"; }
+.pbi-glyph-crosshighlightfilled:before{     content: "\E104"; }
+.pbi-glyph-disable:before{                  content: "\E105"; }
+.pbi-glyph-disablefilled:before{            content: "\E107"; }
+.pbi-glyph-export:before{                   content: "\E106"; }
+.pbi-glyph-iframe:before{                   content: "\E108"; }
+.pbi-glyph-addcircle:before{                content: "\E113"; }
+.pbi-glyph-fullscreen:before{               content: "\E110"; }
+.pbi-glyph-fullscreenexit:before{           content: "\E111"; }
+.pbi-glyph-fittopage:before{                content: "\E109"; }
+.pbi-glyph-code:before{                     content: "\ECCE"; }
+.pbi-glyph-zorder:before{                   content: "\E114"; }
+.pbi-glyph-visualinteraction:before{        content: "\E115"; }
+.pbi-glyph-alignment:before{                content: "\E116"; }
+.pbi-glyph-shapes:before{                   content: "\EC7C"; }
+.pbi-glyph-attachment:before{               content: "\E118"; }
+.pbi-glyph-securityalert:before{            content: "\E117"; }
+.pbi-glyph-bold:before{                     content: "\E8DD"; }
+.pbi-glyph-italics:before{                  content: "\E8DB"; }
+.pbi-glyph-underline:before{                content: "\E8DC"; }
+.pbi-glyph-rectangle:before{                content: "\E119"; }
+.pbi-glyph-oval:before{                     content: "\E120"; }
+.pbi-glyph-line:before{                     content: "\E121"; }
+.pbi-glyph-triangle:before{                 content: "\E122"; }
+.pbi-glyph-arrow:before{                    content: "\E123"; }
+.pbi-glyph-image:before{                    content: "\E124"; }
+.pbi-glyph-alignleft:before{                content: "\E8E4"; }
+.pbi-glyph-aligncenter:before{              content: "\E8E3"; }
+.pbi-glyph-alignright:before{               content: "\E8E2"; }
+.pbi-glyph-qrcode:before{                   content: "\ED14"; }
+.pbi-glyph-powerbi:before{                  content: "\E000"; }
+.pbi-glyph-gear:before{                     content: "\E002"; }
+.pbi-glyph-download:before{                 content: "\E003"; }
+.pbi-glyph-smiley:before{                   content: "\E005"; }
+.pbi-glyph-question:before{                 content: "\E004"; }
+.pbi-glyph-tile:before{                     content: "\E006"; }
+.pbi-glyph-rlogo:before{                    content: "\E125"; }
+.pbi-glyph-play:before{                     content: "\EB1C"; }
+.pbi-glyph-stop:before{                     content: "\EA6F"; }
+.pbi-glyph-excelcloud:before{               content: "\EC29"; }
+.pbi-glyph-importvisual:before{             content: "\E8B5"; }
+.pbi-glyph-sharepoint:before{               content: "\ED18"; }
+.pbi-glyph-print:before{                    content: "\E2F6"; }
+.pbi-glyph-stackedbar:before{               content: "\E126"; }
+.pbi-glyph-stackedcolumn:before{            content: "\E127"; }
+.pbi-glyph-areachart:before{                content: "\E128"; }
+.pbi-glyph-piechart:before{                 content: "\E129"; }
+.pbi-glyph-fullstackedbar:before{           content: "\E130"; }
+.pbi-glyph-linechart:before{                content: "\E131"; }
+.pbi-glyph-scatter:before{                  content: "\E132"; }
+.pbi-glyph-funnel:before{                   content: "\E133"; }
+.pbi-glyph-dataset:before{                  content: "\E138"; }
+.pbi-glyph-publishtoweb:before{             content: "\E134"; }
+.pbi-glyph-database:before{                 content: "\EC8C"; }
+.pbi-glyph-drilltodetail:before{            content: "\E140"; }
+.pbi-glyph-seedata:before{                  content: "\E139"; }
+.pbi-glyph-move:before{                     content: "\E135"; }
+.pbi-glyph-home:before{                     content: "\E10F"; }
+.pbi-glyph-rotatehorizontal:before{         content: "\E141"; }
+.pbi-glyph-rotatevertical:before{           content: "\E142"; }
+.pbi-glyph-download2:before{                content: "\E143"; }
+.pbi-glyph-calculate:before{                content: "\E1D0"; }
+.pbi-glyph-reload:before{                   content: "\E248"; }
+.pbi-glyph-insight:before{                  content: "\EA80"; }
+.pbi-glyph-nonetwork:before{                content: "\EB63"; }
+.pbi-glyph-dynamic:before{                  content: "\E144"; }
+.pbi-glyph-fittopage2:before{               content: "\E145"; }
+.pbi-glyph-fittowidth:before{               content: "\E9A7"; }
+.pbi-glyph-actualsize:before{               content: "\E146"; }
+.pbi-glyph-favoritefilled:before{           content: "\E735"; }
+.pbi-glyph-expand:before{                   content: "\E147"; }
+.pbi-glyph-drillup:before{                  content: "\E148"; }
+.pbi-glyph-drilldowndisabled:before{        content: "\E149"; }
+.pbi-glyph-drilldownenabled:before{         content: "\E150"; }
+.pbi-glyph-show:before{                     content: "\E151"; }
+.pbi-glyph-bell:before{                     content: "\EA8F"; }
+.pbi-glyph-atoz:before{                     content: "\E152"; }
+.pbi-glyph-ztoa:before{                     content: "\E153"; }
+.pbi-glyph-objectleft:before{               content: "\E154"; }
+.pbi-glyph-objectcenter:before{             content: "\E155"; }
+.pbi-glyph-objectright:before{              content: "\E156"; }
+.pbi-glyph-objecttop:before{                content: "\E157"; }
+.pbi-glyph-objectmiddle:before{             content: "\E158"; }
+.pbi-glyph-objectbottom:before{             content: "\E159"; }
+.pbi-glyph-bringtofront:before{             content: "\E160"; }
+.pbi-glyph-sendtoback:before{               content: "\E161"; }
+.pbi-glyph-bringforward:before{             content: "\E162"; }
+.pbi-glyph-bringbackward:before{            content: "\E163"; }
+.pbi-glyph-advancedfilter:before{           content: "\E164"; }
+.pbi-glyph-contentviewicon:before{          content: "\E7E9"; }
+.pbi-glyph-saveformobile:before{            content: "\E165"; }
+.pbi-glyph-phone:before{                    content: "\E1C9"; }
+.pbi-glyph-user:before{                     content: "\E77B"; }
+.pbi-glyph-streaming-data:before{           content: "\E93E"; }
+.pbi-glyph-refresh-data:before{             content: "\E8F7"; }
+.pbi-glyph-circled-checkmark:before{        content: "\E166"; }
+.pbi-glyph-play-alt:before{                 content: "\E167"; }
+.pbi-glyph-pause:before{                    content: "\E168"; }
+.pbi-glyph-barcode-scanner:before{          content: "\E169"; }
+.pbi-glyph-collections:before{              content: "\E170"; }
+.pbi-glyph-eraser:before{                   content: "\E75C"; }
+.pbi-glyph-arrowleft:before{                content: "\E76B"; }
+.pbi-glyph-arrowright:before{               content: "\E76C"; }
+.pbi-glyph-paintbrush:before{               content: "\ECFF"; }
+.pbi-glyph-notification-center:before{      content: "\E91C"; }
+.pbi-glyph-sort:before{                     content: "\E810"; }
+.pbi-glyph-realtime:before{                 content: "\E945"; }
+
+
+.pbi-glyph-pin{
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+
+    &:before{
+        content: "\E718";
+    }
+}
+
+.pbi-glyph-caretright{
+    .pbi-glyph-caretdownright();
+
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.pbi-glyph-caretdown{
+    .pbi-glyph-caretdownright();
+
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.pbi-glyph-caretleft{
+    .pbi-glyph-caretdownright();
+
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.pbi-glyph-chevronrightmedium{
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    &::before{   content: "\E972"; }
+}
+
+.pbi-glyph-chevronleftmedium{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    &::before{   content: "\E972"; }
+}
+
+.pbi-glyph-uparrow{
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    &::before{ content: "\E72B"; }
+}
+
+.pbi-glyph-rightarrow{
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    &::before{ content: "\E72B" }
+}
+
+.pbi-glyph-uprightarrow{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    &::before{ content: "\E72B" }
+}
+
+.pbi-glyph-getdata{
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+    &::before{ content: "\E72B" }
+    font-weight: bold;
+}
+
+.pbi-glyph-cancel{
+    &::before{
+        content: "\E8BB";
+    }
+    font-weight: bold;
+}
+
+//rtl support for icons
+[dir='rtl']{
+    //any directional icons should be added here
+    .pbi-glyph-caretdownright{
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+    }
+    .pbi-glyph-caretleft{
+         transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+
+    .pbi-glyph-caretright{
+         transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
+    }
+
+    .pbi-glyph-chevronrightmedium{
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+    }
+
+    .pbi-glyph-chevronleftmedium{
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+    }
+
+    .pbi-glyph-getdata{
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+
+    .pbi-glyph-go{
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+    }
+
+    .pbi-glyph-pageright,
+    .pbi-glyph-pageleft,
+    .pbi-glyph-back,
+    .pbi-glyph-play,
+    .pbi-glyph-rewind
+     {
+         transform: rotate(-180deg);
+        -webkit-transform: rotate(-180deg);
+     }
+}
+
+//Language specific support for Icons
+html:lang(ar) {
+    //The question icon is flipped in Arabic, but not in Hebrew
+    .pbi-glyph-question{
+        transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+    }
+}
