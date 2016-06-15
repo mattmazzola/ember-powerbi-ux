@@ -1,5 +1,10 @@
 # Ember-powerbi-ux
 
+Ember addon for Microsoft Power BI UX.  Provides fonts, icons, colors, and components for ember applications.
+See the official Power BI UX site for details: http://pbiux.azurewebsites.net/
+
+## Collaborating
+
 This README outlines the details of collaborating on this Ember addon.
 
 ## Installation
