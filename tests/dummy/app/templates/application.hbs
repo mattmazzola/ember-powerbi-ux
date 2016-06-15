@@ -1,41 +1,90 @@
-<h1 class="title">Ember-PowerBI-UX</h1>
-
-<section>
-  <header>
-    <h2>Colors</h2>
+<div class="pbi-layout">
+  <header class="pbi-layout__header">
+    <div class="pbi-layout-header">
+      <div class="pbi-layout-header__menu-toggle pbi-layout-header__icon themePrimaryColor" {{action "toggleNavigation"}}>
+        <span class="glyphicon pbi-glyph-globalnavbutton"></span>
+      </div>
+      <div class="pbi-layout-header__title">Microsoft Power BI Embedded</div>
+      
+      <div class="pbi-layout-header__icon pbi-layout-header__fullscreen">
+        <span class="glyphicon pbi-glyph-chromefullscreen"></span>
+      </div>
+      <div class="pbi-layout-header__icon pbi-layout-header__refresh">
+        <span class="glyphicon pbi-glyph-refresh"></span>
+      </div>
+      <div class="pbi-layout-header__icon pbi-layout-header__search">
+        <span class="glyphicon pbi-glyph-search"></span>
+      </div>
+      <div class="pbi-layout-header__icon pbi-layout-header__actions">
+        <span class="glyphicon pbi-glyph-more"></span>
+      </div>
+    </div>
   </header>
-  <ul class="colors">
-    {{#each uiColors as |color|}}
-      <li class="color {{color.name}}">
-        <span class="name">{{color.name}}</span>
-        <span class="hex">{{color.value}}</span>
-      </li>
-    {{/each}}
-  </ul>
-</section>
-
-<section>
-  <header>
-    <h2>Visual Colors</h2>
-  </header>
-  <ul class="colors">
-    {{#each visualColors as |color|}}
-      <li class="color {{color.name}}">
-        <span class="name">{{color.name}}</span>
-        <span class="hex">{{color.value}}</span>
-      </li>
-    {{/each}}
-  </ul>
-</section>
-
-<h2>Icons</h2>
-<ul class="icons">
-  {{#each standardGlyphs as |icon|}}
-    <li class="icon-container">
-      <span class="glyphicon pbi-glyph-{{icon}} glyph-large"></span>
-      <span class="name">{{icon}}</span>
-    </li>
-  {{/each}}
-</ul>
-
-{{outlet}}
+  <div class="pbi-layout__main">
+    <div class="pbi-layout-main">
+      <div class="pbi-layout-main__nav neutralPrimaryColor">
+        <div class="pbi-nav">
+          <div class="pbi-nav__content neutralPrimaryColor {{if showNavigationLabels 'pbi-nav__content--expanded'}}">
+            <div class="pbi-nav__primary-buttons">
+              <div class="pbi-nav__button-category pbi-nav__button-category--primary">
+                {{#link-to "index" class="pbi-nav-button" tagName="div"}}
+                  <div class="pbi-nav-button__icon">
+                    <span class="glyphicon pbi-glyph-home"></span>
+                  </div>
+                  <div class="pbi-nav-button__label">
+                    Home
+                  </div>
+                {{/link-to}}
+                {{#link-to "browse" class="pbi-nav-button" tagName="div"}}
+                  <div class="pbi-nav-button__icon">
+                    <span class="glyphicon pbi-glyph-folder"></span>
+                  </div>
+                  <div class="pbi-nav-button__label">
+                    Browse
+                  </div>
+                {{/link-to}}
+              </div>
+            </div>
+            <div class="pbi-nav__secondary-buttons">
+              <div class="pbi-nav__button-category">
+                {{#link-to "favorites" class="pbi-nav-button" tagName="div"}}
+                  <div class="pbi-nav-button__icon">
+                    <span class="glyphicon pbi-glyph-favoritestar"></span>
+                  </div>
+                  <div class="pbi-nav-button__label">
+                    Favorites
+                  </div>
+                {{/link-to}}
+              </div>
+            </div>
+            <div class="pbi-nav__footer-buttons">
+              <div class="pbi-nav__button-category">
+                {{#link-to "settings" class="pbi-nav-button" tagName="div"}}
+                  <div class="pbi-nav-button__icon">
+                    <span class="glyphicon pbi-glyph-settings"></span>
+                  </div>
+                  <div class="pbi-nav-button__label">
+                    Settings
+                  </div>
+                {{/link-to}}
+                {{#link-to "user" class="pbi-nav-button" tagName="div"}}
+                  <div class="pbi-nav-button__icon">
+                    <span class="glyphicon pbi-glyph-user"></span>
+                  </div>
+                  <div class="pbi-nav-button__label">
+                    User
+                  </div>
+                {{/link-to}}
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pbi-layout-main__content">
+        <div class="pbi-layout-content">
+          {{outlet}}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

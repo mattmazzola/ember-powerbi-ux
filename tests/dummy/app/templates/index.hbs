@@ -1,0 +1,39 @@
+<h1 class="title">Ember-PowerBI-UX</h1>
+<p>{{showNavigationLabels}}</p>
+<section>
+  <header>
+    <h2>Colors</h2>
+  </header>
+  <ul class="colors">
+    {{#each uiColors as |color|}}
+      <li class="color {{color.name}}">
+        <span class="name">{{color.name}}</span>
+        <span class="hex">{{color.value}}</span>
+      </li>
+    {{/each}}
+  </ul>
+</section>
+
+<section>
+  <header>
+    <h2>Visual Colors</h2>
+  </header>
+  <ul class="colors">
+    {{#each visualColors as |color|}}
+      <li class="color {{color.name}}">
+        <span class="name">{{color.name}}</span>
+        <span class="hex">{{color.value}}</span>
+      </li>
+    {{/each}}
+  </ul>
+</section>
+
+<h2>Icons</h2>
+<ul class="icons">
+  {{#each standardGlyphs as |icon|}}
+    <li class="icon-container">
+      <span class="glyphicon pbi-glyph-{{icon}} glyph-large"></span>
+      <span class="name">{{icon}}</span>
+    </li>
+  {{/each}}
+</ul>
