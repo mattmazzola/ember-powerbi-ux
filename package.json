@@ -1,7 +1,7 @@
 {
   "name": "ember-powerbi-ux",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Ember addon for Microsoft Power BI UX.  Provides fonts, icons, colors, and components for ember applications. See the official Power BI UX site for details: http://pbiux.azurewebsites.net/",
   "directories": {
     "doc": "doc",
     "test": "tests"
