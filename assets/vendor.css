@@ -1,0 +1,1063 @@
+.dataColor1 {
+  fill: #01B8AA;
+  background-color: #01B8AA;
+}
+.dataColor2 {
+  fill: #374649;
+  background-color: #374649;
+}
+.dataColor3 {
+  fill: #FD625E;
+  background-color: #FD625E;
+}
+.dataColor4 {
+  fill: #F2C80F;
+  background-color: #F2C80F;
+}
+.dataColor5 {
+  fill: #5F6B6D;
+  background-color: #5F6B6D;
+}
+.dataColor6 {
+  fill: #8AD4EB;
+  background-color: #8AD4EB;
+}
+.dataColor7 {
+  fill: #FE9666;
+  background-color: #FE9666;
+}
+.dataColor8 {
+  fill: #A66999;
+  background-color: #A66999;
+}
+.dataColor9 {
+  fill: #3599B8;
+  background-color: #3599B8;
+}
+.dataColor10 {
+  fill: #DFBFBF;
+  background-color: #DFBFBF;
+}
+.positiveColor {
+  fill: #01B8AA;
+  background-color: #01B8AA;
+}
+.neutralColor {
+  fill: #F2C80F;
+  background-color: #F2C80F;
+}
+.negativeColor {
+  fill: #FD625E;
+  background-color: #FD625E;
+}
+#brandingHeader {
+  margin-top: 50px;
+  background-color: #F2C811;
+  color: #000;
+}
+#brandingHeader .pbi-brand-text {
+  font-family: 'Segoe UI Semibold', 'wf_segoe-ui_semibold', helvetica, arial, sans-serif;
+  font-size: 24px;
+  vertical-align: top;
+  margin-left: 8px;
+}
+.themePrimaryColor {
+  background-color: #F2C811;
+  color: #000000;
+}
+.themeDarkColor {
+  background-color: #CDA521;
+  color: #000000;
+}
+.themeDarkerColor {
+  background-color: #BE9A27;
+  color: #000000;
+}
+.themeSecondaryColor {
+  background-color: #000000;
+  color: #FFF;
+}
+.themeSecondaryAltColor {
+  background-color: #444444;
+  color: #FFF;
+}
+.themeTertiaryColor {
+  background-color: #F2C811;
+  color: #000000;
+}
+.themeLightColor {
+  background-color: #F2C811;
+  color: #000000;
+}
+themeLighterColor {
+  background-color: #F2C811;
+  color: #000000;
+}
+.blackColor {
+  background-color: #000;
+  color: #FFF;
+}
+.neutralDarkColor {
+  background-color: #212121;
+  color: #FFF;
+}
+.neutralPrimaryColor {
+  background-color: #333333;
+  color: #FFF;
+}
+.neutralPrimaryColorAlt {
+  background-color: #444444;
+  color: #FFF;
+}
+.neutralPrimaryColorAlt2 {
+  background-color: #4a4a4a;
+  color: #FFF;
+}
+.neutralPrimaryColorAlt3 {
+  background-color: #515151;
+  color: #FFF;
+}
+.neutralSecondaryColor {
+  background-color: #666666;
+  color: #FFF;
+}
+.neutralSecondaryAltColor {
+  background-color: #777777;
+  color: #FFF;
+}
+.neutralSecondaryAltColor2 {
+  background-color: #888888;
+  color: #FFF;
+}
+.neutralTertiaryColor {
+  background-color: #A6A6A6;
+  color: #FFF;
+}
+.neutralTertiaryAltColor {
+  background-color: #C8C8C8;
+  color: #000;
+}
+.neutralLightColor {
+  background-color: #EAEAEA;
+  color: #000000;
+}
+.neutralLighterColor {
+  background-color: #F4F4F4;
+  color: #000000;
+}
+.whiteColor {
+  background-color: #FFF;
+  color: #000;
+}
+.linkColor {
+  background-color: #000000;
+  color: #FFF;
+}
+.highlightColor {
+  background-color: #BE9A27;
+  color: #000;
+}
+.warningColor {
+  background-color: #E81123;
+  color: #FFF;
+}
+.successColor {
+  background-color: #3bb44a;
+  color: #FFF;
+}
+.infoColor {
+  background-color: #DEEBF6;
+  color: #000;
+}
+.infoDarkColor {
+  background-color: #33669A;
+  color: #000;
+}
+.alertColor {
+  background-color: #FFF9AE;
+  color: #000;
+}
+.alertDarkColor {
+  background-color: #DDB53B;
+  color: #000;
+}
+.alertBorderColor {
+  background-color: #D7D889;
+  color: #000;
+}
+.criticalColor {
+  background-color: #FADBD2;
+  color: #000;
+}
+.questionBoxForegroundColor {
+  background-color: #999;
+  color: #000;
+}
+/*
+ *  Power BI Colors
+ *
+ *  Copyright (c) Microsoft Corporation
+ *  All rights reserved.
+ *  MIT License
+ *
+ *  Permission is hereby granted, free of charge, to any person obtaining a copy
+ *  of this software and associated documentation files (the ""Software""), to deal
+ *  in the Software without restriction, including without limitation the rights
+ *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *  copies of the Software, and to permit persons to whom the Software is
+ *  furnished to do so, subject to the following conditions:
+ *
+ *  The above copyright notice and this permission notice shall be included in
+ *  all copies or substantial portions of the Software.
+ *
+ *  THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ *  THE SOFTWARE.
+ */
+/* ADDED THEME COLORS NOT ACCOUNTED FOR ELSEWHERE */
+/* THEME COLORS */
+/* NEUTRAL COLORS */
+/* ACCENT COLORS */
+/* APPLICATION CHROME COLORS */
+/*dark chrome*/
+/*
+    DEPRECATED COLORS: Please refrain from adding one time use colors to the section below.
+    These will be all be removed. New colors must be provided by design and be in the design OneNote palette
+*/
+/* PowerView specific colors */
+/* Visual colors */
+/*
+ *  Power BI Visualizations
+ *
+ *  Copyright (c) Microsoft Corporation
+ *  All rights reserved.
+ *  MIT License
+ *
+ *  Permission is hereby granted, free of charge, to any person obtaining a copy
+ *  of this software and associated documentation files (the ""Software""), to deal
+ *  in the Software without restriction, including without limitation the rights
+ *  to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ *  copies of the Software, and to permit persons to whom the Software is
+ *  furnished to do so, subject to the following conditions:
+ *
+ *  The above copyright notice and this permission notice shall be included in
+ *  all copies or substantial portions of the Software.
+ *
+ *  THE SOFTWARE IS PROVIDED *AS IS*, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ *  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ *  FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ *  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ *  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ *  OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+ *  THE SOFTWARE.
+ */
+body {
+  -webkit-font-smoothing: antialiased;
+}
+.secondaryFont {
+  font-family: 'wf_standard-font', helvetica, arial, sans-serif;
+}
+.secondaryBoldFont {
+  font-family: 'wf_standard-font_bold', helvetica, arial, sans-serif;
+}
+.lightFont {
+  font-family: 'Segoe UI Light', 'wf_segoe-ui_light', helvetica, arial, sans-serif;
+}
+.semilightFont {
+  font-family: 'Segoe UI Semilight', 'wf_segoe-ui_semilight', helvetica, arial, sans-serif;
+}
+.regularFont {
+  font-family: 'Segoe UI', 'wf_segoe-ui_normal', helvetica, arial, sans-serif;
+}
+.semiboldFont {
+  font-family: 'Segoe UI Semibold', 'wf_segoe-ui_semibold', helvetica, arial, sans-serif;
+}
+.boldFontFamily {
+  font-family: 'Segoe UI Bold', 'wf_segoe-ui_bold', helvetica, arial, sans-serif;
+}
+.smallFontSize {
+  font-size: 12px;
+}
+.mediumFontSize {
+  font-size: 14px;
+}
+.largeFontSize {
+  font-size: 16px;
+}
+@font-face {
+  font-family: 'wf_segoe-ui_light';
+  src: url('../ember-powerbi-ux/fonts/SegoeUI-Light-final.eot');
+  src: local('Segoe UI Light'),local('Segoe WP Light'), url('../ember-powerbi-ux/fonts/SegoeUI-Light-final.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/SegoeUI-Light-final.woff') format('woff'),url('../ember-powerbi-ux/fonts/SegoeUI-Light-final.ttf') format('truetype'),url('../ember-powerbi-ux/fonts/SegoeUI-Light-final.svg#web') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'wf_segoe-ui_semilight';
+  src: url('../ember-powerbi-ux/fonts/SegoeUI-SemiLight-final.eot');
+  src: local('Segoe UI Semilight'),local('Segoe WP Light'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiLight-final.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiLight-final.woff') format('woff'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiLight-final.ttf') format('truetype'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiLight-final.svg#web') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'wf_segoe-ui_normal';
+  src: url('../ember-powerbi-ux/fonts/SegoeUI-Regular-final.eot');
+  src: local('Segoe UI'),local('Segoe'),local('Segoe WP'),url('../ember-powerbi-ux/fonts/SegoeUI-Regular-final.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/SegoeUI-Regular-final.woff') format('woff'),url('../ember-powerbi-ux/fonts/SegoeUI-Regular-final.ttf') format('truetype'),url('../ember-powerbi-ux/fonts/SegoeUI-Regular-final.svg#web') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'wf_segoe-ui_semibold';
+  src: url('../ember-powerbi-ux/fonts/SegoeUI-SemiBold-final.eot');
+  src: local('Segoe UI Semibold'),local('Segoe Semibold'),local('Segoe WP Semibold'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiBold-final.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiBold-final.woff') format('woff'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiBold-final.ttf') format('truetype'),url('../ember-powerbi-ux/fonts/SegoeUI-SemiBold-final.svg#web') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'wf_segoe-ui_bold';
+  src: url('../ember-powerbi-ux/fonts/SegoeUI-Bold-final.eot');
+  src: local('Segoe UI bold'),local('Segoe bold'),local('Segoe WP bold'),url('../ember-powerbi-ux/fonts/SegoeUI-Bold-final.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/SegoeUI-Bold-final.woff') format('woff'),url('../ember-powerbi-ux/fonts/SegoeUI-Bold-final.ttf') format('truetype'),url('../ember-powerbi-ux/fonts/SegoeUI-Bold-final.svg#web') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'wf_standard-font';
+  src: url('../ember-powerbi-ux/fonts/StandardFont.eot');
+  src: url('../ember-powerbi-ux/fonts/StandardFont.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/StandardFont.woff') format('woff'),url('../ember-powerbi-ux/fonts/StandardFont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'wf_standard-font_bold';
+  src: url('../ember-powerbi-ux/fonts/StandardFontBold.eot');
+  src: url('../ember-powerbi-ux/fonts/StandardFontBold.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/StandardFontBold.woff') format('woff'),url('../ember-powerbi-ux/fonts/StandardFontBold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'wf_standard-font_light';
+  src: url('../ember-powerbi-ux/fonts/StandardFontLight.eot');
+  src: url('../ember-powerbi-ux/fonts/StandardFontLight.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/StandardFontLight.woff') format('woff'),url('../ember-powerbi-ux/fonts/StandardFontLight.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'PowrMDL2';
+  src: url('../ember-powerbi-ux/fonts/PowrMDL2.eot');
+  src: url('../ember-powerbi-ux/fonts/PowrMDL2.eot?#iefix') format('embedded-opentype'),url('../ember-powerbi-ux/fonts/PowrMDL2.woff') format('woff'),url('../ember-powerbi-ux/fonts/PowrMDL2.ttf') format('truetype'),url('../ember-powerbi-ux/fonts/PowrMDL2.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.glyphicon {
+  font-family: 'PowrMDL2';
+  font-style: normal;
+  font-size: 32px;
+  display: inline-block;
+}
+.glyph-micro {
+  font-size: 8px;
+}
+.glyph-mini {
+  font-size: 12px;
+}
+.glyph-small {
+  font-size: 16px;
+}
+.glyph-medium {
+  font-size: 32px;
+}
+.glyph-med {
+  font-size: 32px;
+}
+/* deprecated - use medium */
+.glyph-large {
+  font-size: 48px;
+}
+.pbi-glyph-chevrondownmedium::before {
+  content: "\E972";
+}
+.pbi-glyph-chevronupmedium::before {
+  content: "\E971";
+}
+.pbi-glyph-caretdownright::before {
+  content: "\E818";
+}
+.pbi-glyph-share:before {
+  content: "\E72D";
+}
+.pbi-glyph-save:before {
+  content: "\E74E";
+}
+.pbi-glyph-saveas:before {
+  content: "\E792";
+}
+.pbi-glyph-financial:before {
+  content: "\E7BB";
+}
+.pbi-glyph-edit:before {
+  content: "\E70F";
+}
+.pbi-glyph-emi:before {
+  content: "\E731";
+}
+.pbi-glyph-checkboxcomposite:before {
+  content: "\E73A";
+}
+.pbi-glyph-checkmark:before {
+  content: "\E73E";
+}
+.pbi-glyph-page2:before {
+  content: "\E7C3";
+}
+.pbi-glyph-folder:before {
+  content: "\E8B7";
+}
+.pbi-glyph-link:before {
+  content: "\E71B";
+}
+.pbi-glyph-group:before {
+  content: "\E902";
+}
+.pbi-glyph-paste:before {
+  content: "\E77F";
+}
+.pbi-glyph-emoji:before {
+  content: "\E76E";
+}
+.pbi-glyph-upload:before {
+  content: "\E898";
+}
+.pbi-glyph-pc1:before {
+  content: "\E977";
+}
+.pbi-glyph-add:before {
+  content: "\E710";
+}
+.pbi-glyph-search:before {
+  content: "\E721";
+}
+.pbi-glyph-globalnavbutton:before {
+  content: "\E700";
+}
+.pbi-glyph-pageright:before {
+  content: "\E761";
+}
+.pbi-glyph-pageleft:before {
+  content: "\E760";
+}
+.pbi-glyph-tvmonitor:before {
+  content: "\E7F4";
+}
+.pbi-glyph-chromerestore:before {
+  content: "\E923";
+}
+.pbi-glyph-world:before {
+  content: "\E128";
+}
+.pbi-glyph-more:before {
+  content: "\E712";
+}
+.pbi-glyph-slideshow:before {
+  content: "\E786";
+}
+.pbi-glyph-photo:before {
+  content: "\E91B";
+}
+.pbi-glyph-calendar:before {
+  content: "\E787";
+}
+.pbi-glyph-favoritestar:before {
+  content: "\E734";
+}
+.pbi-glyph-collection:before {
+  content: "\E7AA";
+}
+.pbi-glyph-chromefullscreen:before {
+  content: "\E92D";
+}
+.pbi-glyph-undo:before {
+  content: "\E7A7";
+}
+.pbi-glyph-back:before {
+  content: "\E72B";
+}
+.pbi-glyph-font:before {
+  content: "\E8D2";
+}
+.pbi-glyph-flickup:before {
+  content: "\E936";
+}
+.pbi-glyph-chromeminimize:before {
+  content: "\E921";
+}
+.pbi-glyph-gripperbarhorizontal:before {
+  content: "\E76F";
+}
+.pbi-glyph-barchart:before {
+  content: "\EAE7";
+}
+.pbi-glyph-gauge:before {
+  content: "\EB24";
+}
+.pbi-glyph-warning:before {
+  content: "\E7BA";
+}
+.pbi-glyph-error:before {
+  content: "\EA39";
+}
+.pbi-glyph-success:before {
+  content: "\E73E";
+}
+.pbi-glyph-settings:before {
+  content: "\E713";
+}
+.pbi-glyph-globe:before {
+  content: "\E774";
+}
+.pbi-glyph-repair:before {
+  content: "\E90F";
+}
+.pbi-glyph-info:before {
+  content: "\E946";
+}
+.pbi-glyph-go:before {
+  content: "\E8AD";
+}
+.pbi-glyph-blockedsite:before {
+  content: "\E72F";
+}
+.pbi-glyph-close:before {
+  content: "\E8BB";
+}
+.pbi-glyph-qna:before {
+  content: "\E8BD";
+}
+.pbi-glyph-circlefill:before {
+  content: "\EA3B";
+}
+.pbi-glyph-circlering:before {
+  content: "\EA3A";
+}
+.pbi-glyph-pinned:before {
+  content: "\E840";
+}
+.pbi-glyph-pinnedfill:before {
+  content: "\E842";
+}
+.pbi-glyph-unpin:before {
+  content: "\E77A";
+}
+.pbi-glyph-excel:before {
+  content: "\EC28";
+}
+.pbi-glyph-flag:before {
+  content: "\E7C1";
+}
+.pbi-glyph-library:before {
+  content: "\E8F1";
+}
+.pbi-glyph-mail:before {
+  content: "\E715";
+}
+.pbi-glyph-lock:before {
+  content: "\E72E";
+}
+.pbi-glyph-piedouble:before {
+  content: "\EB04";
+}
+.pbi-glyph-rewind:before {
+  content: "\EB9E";
+}
+.pbi-glyph-asterisk:before {
+  content: "\EA38";
+}
+.pbi-glyph-comment:before {
+  content: "\E90A";
+}
+.pbi-glyph-checkbox:before {
+  content: "\E739";
+}
+.pbi-glyph-checkboxfill:before {
+  content: "\E73B";
+}
+.pbi-glyph-checkboxindeterminate:before {
+  content: "\E73C";
+}
+.pbi-glyph-checkboxreversed:before {
+  content: "\E73D";
+}
+.pbi-glyph-inserttextbox:before {
+  content: "\EC7D";
+}
+.pbi-glyph-toggle:before {
+  content: "\EC12";
+}
+.pbi-glyph-togglefilled:before {
+  content: "\EC11";
+}
+.pbi-glyph-delete:before {
+  content: "\E74D";
+}
+.pbi-glyph-refresh:before {
+  content: "\E72C";
+}
+.pbi-glyph-miniexpand:before {
+  content: "\E93A";
+}
+.pbi-glyph-minicontract:before {
+  content: "\E93B";
+}
+.pbi-glyph-waffle:before {
+  content: "\E001";
+}
+.pbi-glyph-filter:before {
+  content: "\E100";
+}
+.pbi-glyph-filterfilled:before {
+  content: "\E101";
+}
+.pbi-glyph-visualsinteraction:before {
+  content: "\E102";
+}
+.pbi-glyph-crosshighlight:before {
+  content: "\E103";
+}
+.pbi-glyph-crosshighlightfilled:before {
+  content: "\E104";
+}
+.pbi-glyph-disable:before {
+  content: "\E105";
+}
+.pbi-glyph-disablefilled:before {
+  content: "\E107";
+}
+.pbi-glyph-export:before {
+  content: "\E106";
+}
+.pbi-glyph-iframe:before {
+  content: "\E108";
+}
+.pbi-glyph-addcircle:before {
+  content: "\E113";
+}
+.pbi-glyph-fullscreen:before {
+  content: "\E110";
+}
+.pbi-glyph-fullscreenexit:before {
+  content: "\E111";
+}
+.pbi-glyph-fittopage:before {
+  content: "\E109";
+}
+.pbi-glyph-code:before {
+  content: "\ECCE";
+}
+.pbi-glyph-zorder:before {
+  content: "\E114";
+}
+.pbi-glyph-visualinteraction:before {
+  content: "\E115";
+}
+.pbi-glyph-alignment:before {
+  content: "\E116";
+}
+.pbi-glyph-shapes:before {
+  content: "\EC7C";
+}
+.pbi-glyph-attachment:before {
+  content: "\E118";
+}
+.pbi-glyph-securityalert:before {
+  content: "\E117";
+}
+.pbi-glyph-bold:before {
+  content: "\E8DD";
+}
+.pbi-glyph-italics:before {
+  content: "\E8DB";
+}
+.pbi-glyph-underline:before {
+  content: "\E8DC";
+}
+.pbi-glyph-rectangle:before {
+  content: "\E119";
+}
+.pbi-glyph-oval:before {
+  content: "\E120";
+}
+.pbi-glyph-line:before {
+  content: "\E121";
+}
+.pbi-glyph-triangle:before {
+  content: "\E122";
+}
+.pbi-glyph-arrow:before {
+  content: "\E123";
+}
+.pbi-glyph-image:before {
+  content: "\E124";
+}
+.pbi-glyph-alignleft:before {
+  content: "\E8E4";
+}
+.pbi-glyph-aligncenter:before {
+  content: "\E8E3";
+}
+.pbi-glyph-alignright:before {
+  content: "\E8E2";
+}
+.pbi-glyph-qrcode:before {
+  content: "\ED14";
+}
+.pbi-glyph-powerbi:before {
+  content: "\E000";
+}
+.pbi-glyph-gear:before {
+  content: "\E002";
+}
+.pbi-glyph-download:before {
+  content: "\E003";
+}
+.pbi-glyph-smiley:before {
+  content: "\E005";
+}
+.pbi-glyph-question:before {
+  content: "\E004";
+}
+.pbi-glyph-tile:before {
+  content: "\E006";
+}
+.pbi-glyph-rlogo:before {
+  content: "\E125";
+}
+.pbi-glyph-play:before {
+  content: "\EB1C";
+}
+.pbi-glyph-stop:before {
+  content: "\EA6F";
+}
+.pbi-glyph-excelcloud:before {
+  content: "\EC29";
+}
+.pbi-glyph-importvisual:before {
+  content: "\E8B5";
+}
+.pbi-glyph-sharepoint:before {
+  content: "\ED18";
+}
+.pbi-glyph-print:before {
+  content: "\E2F6";
+}
+.pbi-glyph-stackedbar:before {
+  content: "\E126";
+}
+.pbi-glyph-stackedcolumn:before {
+  content: "\E127";
+}
+.pbi-glyph-areachart:before {
+  content: "\E128";
+}
+.pbi-glyph-piechart:before {
+  content: "\E129";
+}
+.pbi-glyph-fullstackedbar:before {
+  content: "\E130";
+}
+.pbi-glyph-linechart:before {
+  content: "\E131";
+}
+.pbi-glyph-scatter:before {
+  content: "\E132";
+}
+.pbi-glyph-funnel:before {
+  content: "\E133";
+}
+.pbi-glyph-dataset:before {
+  content: "\E138";
+}
+.pbi-glyph-publishtoweb:before {
+  content: "\E134";
+}
+.pbi-glyph-database:before {
+  content: "\EC8C";
+}
+.pbi-glyph-drilltodetail:before {
+  content: "\E140";
+}
+.pbi-glyph-seedata:before {
+  content: "\E139";
+}
+.pbi-glyph-move:before {
+  content: "\E135";
+}
+.pbi-glyph-home:before {
+  content: "\E10F";
+}
+.pbi-glyph-rotatehorizontal:before {
+  content: "\E141";
+}
+.pbi-glyph-rotatevertical:before {
+  content: "\E142";
+}
+.pbi-glyph-download2:before {
+  content: "\E143";
+}
+.pbi-glyph-calculate:before {
+  content: "\E1D0";
+}
+.pbi-glyph-reload:before {
+  content: "\E248";
+}
+.pbi-glyph-insight:before {
+  content: "\EA80";
+}
+.pbi-glyph-nonetwork:before {
+  content: "\EB63";
+}
+.pbi-glyph-dynamic:before {
+  content: "\E144";
+}
+.pbi-glyph-fittopage2:before {
+  content: "\E145";
+}
+.pbi-glyph-fittowidth:before {
+  content: "\E9A7";
+}
+.pbi-glyph-actualsize:before {
+  content: "\E146";
+}
+.pbi-glyph-favoritefilled:before {
+  content: "\E735";
+}
+.pbi-glyph-expand:before {
+  content: "\E147";
+}
+.pbi-glyph-drillup:before {
+  content: "\E148";
+}
+.pbi-glyph-drilldowndisabled:before {
+  content: "\E149";
+}
+.pbi-glyph-drilldownenabled:before {
+  content: "\E150";
+}
+.pbi-glyph-show:before {
+  content: "\E151";
+}
+.pbi-glyph-bell:before {
+  content: "\EA8F";
+}
+.pbi-glyph-atoz:before {
+  content: "\E152";
+}
+.pbi-glyph-ztoa:before {
+  content: "\E153";
+}
+.pbi-glyph-objectleft:before {
+  content: "\E154";
+}
+.pbi-glyph-objectcenter:before {
+  content: "\E155";
+}
+.pbi-glyph-objectright:before {
+  content: "\E156";
+}
+.pbi-glyph-objecttop:before {
+  content: "\E157";
+}
+.pbi-glyph-objectmiddle:before {
+  content: "\E158";
+}
+.pbi-glyph-objectbottom:before {
+  content: "\E159";
+}
+.pbi-glyph-bringtofront:before {
+  content: "\E160";
+}
+.pbi-glyph-sendtoback:before {
+  content: "\E161";
+}
+.pbi-glyph-bringforward:before {
+  content: "\E162";
+}
+.pbi-glyph-bringbackward:before {
+  content: "\E163";
+}
+.pbi-glyph-advancedfilter:before {
+  content: "\E164";
+}
+.pbi-glyph-contentviewicon:before {
+  content: "\E7E9";
+}
+.pbi-glyph-saveformobile:before {
+  content: "\E165";
+}
+.pbi-glyph-phone:before {
+  content: "\E1C9";
+}
+.pbi-glyph-user:before {
+  content: "\E77B";
+}
+.pbi-glyph-streaming-data:before {
+  content: "\E93E";
+}
+.pbi-glyph-refresh-data:before {
+  content: "\E8F7";
+}
+.pbi-glyph-circled-checkmark:before {
+  content: "\E166";
+}
+.pbi-glyph-play-alt:before {
+  content: "\E167";
+}
+.pbi-glyph-pause:before {
+  content: "\E168";
+}
+.pbi-glyph-barcode-scanner:before {
+  content: "\E169";
+}
+.pbi-glyph-collections:before {
+  content: "\E170";
+}
+.pbi-glyph-eraser:before {
+  content: "\E75C";
+}
+.pbi-glyph-arrowleft:before {
+  content: "\E76B";
+}
+.pbi-glyph-arrowright:before {
+  content: "\E76C";
+}
+.pbi-glyph-paintbrush:before {
+  content: "\ECFF";
+}
+.pbi-glyph-notification-center:before {
+  content: "\E91C";
+}
+.pbi-glyph-sort:before {
+  content: "\E810";
+}
+.pbi-glyph-realtime:before {
+  content: "\E945";
+}
+.pbi-glyph-pin {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.pbi-glyph-pin:before {
+  content: "\E718";
+}
+.pbi-glyph-caretright {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+.pbi-glyph-caretright::before {
+  content: "\E818";
+}
+.pbi-glyph-caretdown {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.pbi-glyph-caretdown::before {
+  content: "\E818";
+}
+.pbi-glyph-caretleft {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.pbi-glyph-caretleft::before {
+  content: "\E818";
+}
+.pbi-glyph-chevronrightmedium {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+.pbi-glyph-chevronrightmedium::before {
+  content: "\E972";
+}
+.pbi-glyph-chevronleftmedium {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+.pbi-glyph-chevronleftmedium::before {
+  content: "\E972";
+}
+.pbi-glyph-uparrow {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+.pbi-glyph-uparrow::before {
+  content: "\E72B";
+}
+.pbi-glyph-rightarrow {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+.pbi-glyph-rightarrow::before {
+  content: "\E72B";
+}
+.pbi-glyph-uprightarrow {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+.pbi-glyph-uprightarrow::before {
+  content: "\E72B";
+}
+.pbi-glyph-getdata {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+  font-weight: bold;
+}
+.pbi-glyph-getdata::before {
+  content: "\E72B";
+}
+.pbi-glyph-cancel {
+  font-weight: bold;
+}
+.pbi-glyph-cancel::before {
+  content: "\E8BB";
+}
+[dir='rtl'] .pbi-glyph-caretdownright {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+[dir='rtl'] .pbi-glyph-caretleft {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+[dir='rtl'] .pbi-glyph-caretright {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+[dir='rtl'] .pbi-glyph-chevronrightmedium {
+  transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+}
+[dir='rtl'] .pbi-glyph-chevronleftmedium {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+[dir='rtl'] .pbi-glyph-getdata {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+[dir='rtl'] .pbi-glyph-go {
+  transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+}
+[dir='rtl'] .pbi-glyph-pageright,
+[dir='rtl'] .pbi-glyph-pageleft,
+[dir='rtl'] .pbi-glyph-back,
+[dir='rtl'] .pbi-glyph-play,
+[dir='rtl'] .pbi-glyph-rewind {
+  transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+}
+html:lang(ar) .pbi-glyph-question {
+  transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+}
+/*# sourceMappingURL=ember-powerbi-ux.css.map */
